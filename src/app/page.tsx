@@ -41,7 +41,7 @@ export default function LandingPage() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Freshly Roasted, Expertly Crafted Coffee in the Heart of San Francisco"
+          title="Freshly Roasted Coffee"
           description="Welcome to Artisan Coffee Co., where we believe in the perfect cup. Every bean is carefully selected, roasted to perfection, and prepared with passion by our experienced baristas."
           tag="Premium Artisan Coffee"
           tagIcon={Coffee}
