@@ -47,7 +47,7 @@ export default function BagelsPage() {
           products={[
             {
               id: "1",              brand: "Artisan Coffee Co.",              name: "Salmon Bagel",              price: "$8.99",              rating: 5,
-              reviewCount: "342",              imageSrc: "http://img.b2bpic.net/free-photo/sandwich-with-salmon-eggs-lemon_1441-1502.jpg",              imageAlt: "Fresh salmon bagel with cream cheese"
+              reviewCount: "342",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AN51bjLT2H1DJy7cFepO8qMgO7/uploaded-1772445675642-eu470ff5.jpg",              imageAlt: "Fresh salmon bagel with cream cheese"
             },
             {
               id: "2",              brand: "Artisan Coffee Co.",              name: "California Bagel",              price: "$9.49",              rating: 5,
