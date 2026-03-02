@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
