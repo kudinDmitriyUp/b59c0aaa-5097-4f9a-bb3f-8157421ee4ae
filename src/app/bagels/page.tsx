@@ -76,7 +76,7 @@ export default function BagelsPage() {
           ]}
           textarea={{ name: "message", placeholder: "Tell us about your bagel order or catering needs...", rows: 5, required: true }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/rustic-chandelier-made-bulbs-ropes-dining-table-vintage-kitchen_181624-9173.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/rustic-chandelier-made-bulbs-ropes-dining-table-vintage-kitchen_181624-9173.jpg?_wi=3"
           imageAlt="Coffee shop interior with bagels"
           mediaAnimation="slide-up"
           buttonText="Send Message"
