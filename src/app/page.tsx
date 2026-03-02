@@ -33,7 +33,9 @@ export default function LandingPage() {
             { name: "Menu", id: "products" },
             { name: "Our Story", id: "story" },
             { name: "Visit Us", id: "contact" },
-            { name: "Reviews", id: "testimonials" }
+            { name: "Reviews", id: "testimonials" },
+            { name: "Coffees", id: "/coffees" },
+            { name: "Bagels", id: "/bagels" }
           ]}
           button={{ text: "Order Now", href: "contact" }}
         />
