@@ -1,45 +1,22 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
+import "./styles/variables.css";
+import "./styles/base.css";
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Artisan Coffee Co. | Premium Coffee in San Francisco",  description: "Discover freshly roasted, expertly crafted coffee in the heart of San Francisco. Visit our cafe for premium espresso, single-origin pour overs, and exceptional service.",  keywords: ["coffee shop", "San Francisco", "artisan coffee", "specialty coffee", "espresso", "cafe", "premium roasted beans"],
-  robots: {
-    index: true,
-    follow: true
-  },
-  openGraph: {
-    title: "Artisan Coffee Co. | Premium Coffee in San Francisco",    description: "Discover freshly roasted, expertly crafted coffee in the heart of San Francisco.",    type: "website",    siteName: "Artisan Coffee Co.",    images: [
-      {
-        url: "http://img.b2bpic.net/free-photo/rustic-chandelier-made-bulbs-ropes-dining-table-vintage-kitchen_181624-9173.jpg",        alt: "Artisan Coffee Co. - San Francisco"
-      }
-    ]
-  },
-  twitter: {
-    card: "summary_large_image",    title: "Artisan Coffee Co. | Premium Coffee in San Francisco",    description: "Discover freshly roasted, expertly crafted coffee in the heart of San Francisco.",    images: ["http://img.b2bpic.net/free-photo/rustic-chandelier-made-bulbs-ropes-dining-table-vintage-kitchen_181624-9173.jpg"]
-  }
-};
+  title: "Artisan Coffee Co.",  description: "Premium artisan coffee, freshly roasted and expertly prepared"};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body
-          className={`${montserrat.variable} antialiased`}
-        >
-          <Tag />
-          {children}
-        
+    <html lang="en">
+      <body className={inter.className}>{children}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1407,7 +1384,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }
