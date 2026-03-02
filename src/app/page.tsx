@@ -49,7 +49,7 @@ export default function LandingPage() {
           tagIcon={Coffee}
           tagAnimation="slide-up"
           background={{ variant: "glowing-orb" }}
-          imageSrc="http://img.b2bpic.net/free-photo/rustic-chandelier-made-bulbs-ropes-dining-table-vintage-kitchen_181624-9173.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/rustic-chandelier-made-bulbs-ropes-dining-table-vintage-kitchen_181624-9173.jpg?_wi=1"
           imageAlt="Warm, inviting coffee shop interior with specialty coffee equipment"
           imagePosition="right"
           mediaAnimation="slide-up"
@@ -88,15 +88,15 @@ export default function LandingPage() {
           products={[
             {
               id: "1",              brand: "Artisan Coffee Co.",              name: "Signature Espresso Blend",              price: "$16.99",              rating: 5,
-              reviewCount: "324",              imageSrc: "http://img.b2bpic.net/free-photo/young-man-working-with-coffee-machine-bar-counter-restaurant-barista-apron-white-shirt-making-coffee-by-coffee-machine-cafe-boy-working-as-barista-coffee-shop_574295-4942.jpg",              imageAlt: "Perfect espresso shot with crema"
+              reviewCount: "324",              imageSrc: "http://img.b2bpic.net/free-photo/young-man-working-with-coffee-machine-bar-counter-restaurant-barista-apron-white-shirt-making-coffee-by-coffee-machine-cafe-boy-working-as-barista-coffee-shop_574295-4942.jpg?_wi=1",              imageAlt: "Perfect espresso shot with crema"
             },
             {
               id: "2",              brand: "Artisan Coffee Co.",              name: "Ethiopian Pour Over",              price: "$18.99",              rating: 5,
-              reviewCount: "287",              imageSrc: "http://img.b2bpic.net/free-photo/aerial-view-person-making-drip-coffee_53876-30607.jpg",              imageAlt: "Beautiful pour over coffee preparation"
+              reviewCount: "287",              imageSrc: "http://img.b2bpic.net/free-photo/aerial-view-person-making-drip-coffee_53876-30607.jpg?_wi=1",              imageAlt: "Beautiful pour over coffee preparation"
             },
             {
               id: "3",              brand: "Artisan Coffee Co.",              name: "Artisan Latte Blend",              price: "$15.99",              rating: 4,
-              reviewCount: "401",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-cup-coffee-latte-art-woman-hand-coffee-shop-cafe_1150-10238.jpg",              imageAlt: "Perfect latte with latte art"
+              reviewCount: "401",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-cup-coffee-latte-art-woman-hand-coffee-shop-cafe_1150-10238.jpg?_wi=1",              imageAlt: "Perfect latte with latte art"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
