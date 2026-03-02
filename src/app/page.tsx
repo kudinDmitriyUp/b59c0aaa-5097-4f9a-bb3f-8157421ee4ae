@@ -49,7 +49,7 @@ export default function LandingPage() {
           tagIcon={Coffee}
           tagAnimation="slide-up"
           background={{ variant: "glowing-orb" }}
-          imageSrc="http://img.b2bpic.net/free-photo/rustic-chandelier-made-bulbs-ropes-dining-table-vintage-kitchen_181624-9173.jpg?_wi=1"
+          videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AN51bjLT2H1DJy7cFepO8qMgO7/uploaded-1772446040564-b62odt8g.mp4"
           imageAlt="Warm, inviting coffee shop interior with specialty coffee equipment"
           imagePosition="right"
           mediaAnimation="slide-up"
