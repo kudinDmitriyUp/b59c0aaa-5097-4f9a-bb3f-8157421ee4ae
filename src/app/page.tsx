@@ -143,11 +143,11 @@ export default function LandingPage() {
             },
             {
               id: "2",              name: "James Chen",              handle: "@techlifesf",              testimonial: "I've tried coffees all over the world, but nothing compares to their single-origin pour overs. Absolute perfection.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg",              imageAlt: "James Chen"
+              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=1",              imageAlt: "James Chen"
             },
             {
               id: "3",              name: "Emma Wilson",              handle: "@emmaw.writes",              testimonial: "My favorite spot to write and work. Great coffee, excellent WiFi, and the team treats you like family.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg",              imageAlt: "Emma Wilson"
+              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=2",              imageAlt: "Emma Wilson"
             },
             {
               id: "4",              name: "Marcus Johnson",              handle: "@marcus.photography",              testimonial: "The craftsmanship in every cup is evident. This is artisanal coffee done right. Worth every penny!",              rating: 5,
