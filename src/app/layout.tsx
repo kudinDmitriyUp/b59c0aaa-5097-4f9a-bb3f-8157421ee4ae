@@ -7,7 +7,8 @@ import "./styles/base.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Artisan Coffee Co.",  description: "Premium artisan coffee, freshly roasted and expertly prepared"};
+  title: "Artisan Coffee Co.",  description: "Premium artisan coffee, freshly roasted and expertly prepared"
+};
 
 export default function RootLayout({
   children,
